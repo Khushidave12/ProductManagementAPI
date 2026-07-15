@@ -4,5 +4,6 @@
     {
         public string ProductName { get; set; } = string.Empty;
     }
+    public record UpdateProductDto(string ProductName, string ModifiedBy);
 }
 
